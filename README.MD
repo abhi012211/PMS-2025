@@ -45,12 +45,18 @@ Authentication
 POST /api/auth/login: Login a user.
 POST /api/auth/register: Register a new user.
 POST /api/auth/refresh-token: Refresh access token.
+
+
+
 User Management
 POST /api/user/create: Create a new user (Admin only).
 GET /api/user/getAll: Get all users (Admin only).
 GET /api/user/get/:id: Get user by ID (Admin only).
 PUT /api/user/update/:id: Update user details (Admin only).
 DELETE /api/user/delete/:id: Delete a user (Admin only).
+
+
+
 Company Management
 POST /api/company/register: Register a new company.
 Project Management
@@ -58,6 +64,9 @@ POST /api/project: Create a new project.
 GET /api/project: List all projects.
 PUT /api/project/:id: Update a project.
 DELETE /api/project/:id: Delete a project.
+
+
+
 Task Management
 POST /api/task: Create a new task.
 GET /api/task: List all tasks.
